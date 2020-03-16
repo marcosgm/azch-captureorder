@@ -74,4 +74,4 @@ stages:
               action: deploy
               namespace: $(k8sNamespace)
               manifests: $(System.ArtifactsDirectory)/manifests/*
-             containers: '$(acrEndpoint)/captureorder:$(tag)'
+              containers: '$(acrEndpoint)/captureorder:$(tag)'
